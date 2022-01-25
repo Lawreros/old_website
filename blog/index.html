@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Home
+title: Blog
+permalink: /blog/
 ---
-
-This is where the main cv and whatnot are going
+<!--This setup is due to https://github.com/sylhare/Type-on-Strap/issues/212 which accounts for paginator's need to use index.html-->
 
 <!-- This loops through the paginated posts -->
-<!-- {% for post in paginator.posts %}
+{% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
     <span class="date">{{ post.date }}</span>
@@ -17,7 +17,7 @@ This is where the main cv and whatnot are going
 {% endfor %}
 
 <!-- Pagination links -->
-<!-- <div class="pagination">
+<div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">
       Previous
@@ -33,7 +33,4 @@ This is where the main cv and whatnot are going
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
-</div> -->
-
-
-
+</div>
