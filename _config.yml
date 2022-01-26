@@ -30,7 +30,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Lawreros
 
 # Build settings
-theme: minima
+
+#Removed the theme, going to use the _layouts directory now.
+#This should allow me more customization
+
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
