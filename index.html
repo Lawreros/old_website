@@ -3,21 +3,18 @@ layout: default
 title: Home
 ---
 
-This is where links/descriptions to the different things is going.
-Why don't we try displaying the most recent post here:
-
 <ul>
   <li>Picture</li>
   <li>Snippit about myself</li>
+  <li>Buttons for Github and linkedin</li>
   <li>Button for downloading CV</li>
-  <li>Button for sending me an email</li>
   <li>Current Employment</li>
   <li>Education History</li>
 </ul>
 
+<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a>
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">{{ site.linkedin_username| escape }}</span></a>
 
-
-Want to put in the "Skills Card" that bridgeford has here
 
 <h3>Programing Skills</h3>
 
@@ -25,8 +22,8 @@ Want to put in the "Skills Card" that bridgeford has here
 
 <body>
 
-  <button class="button button1">My CV</button>
-  <button class="button button1">Contact</button>
+  <button class="button button1" onclick="window.open('/files/rlawre18_Final_paper.pdf')">My CV</button>
+  <button class="button button1">Button</button>
 
   <div class="skill-bars">
     <div class="bar">
