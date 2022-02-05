@@ -33,12 +33,20 @@
     border-top: none;
   }
 
+
+
 /* Consistent raised box for stuff */
 .raised_box {
   box-sizing: content-box;
   margin-left: auto; /* margin-left and margin-right of "auto" is required to center element*/
   margin-right: auto;
-  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 80%;
   padding: 5px;
-  box-shadow: 10px 8px 6px -6px black;
+  font-size: larger;
+  outline: 2px;
+  border: 1px solid #77aaff;
+  box-shadow: 5px 5px 4px #77aaff;
+  /*box-shadow: 10px 8px 6px -6px black;*/
 }
