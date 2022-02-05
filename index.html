@@ -74,13 +74,36 @@ title: Home
 </body>
 
 
-Here is where I should put the Projects category with a changing pane
-<ul>
-  <li>Projects</li>
-  <li>Publications</li>
-  <li>Posters</li>
-  <li>Talks</li>
-</ul>
+<div class="tab">
+  <button class="tablinks" onclick="opentab(event, 'Projects')" id="defaultOpen">Projects</button>
+  <button class="tablinks" onclick="opentab(event, 'Publications')">Publications</button>
+  <button class="tablinks" onclick="opentab(event, 'Posters')">Posters</button>
+  <button class="tablinks" onclick="opentab(event, 'Talks')">Talks</button>
+</div>
+
+<!-- Tab content -->
+<div id="Projects" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Publications" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Posters" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Talks" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<!-- call script for tabbed panels has to occur after all tab content is defined -->
+<script src="/java/misc_methods.js"></script>
 
 <div>
   <h2>What I'm currently up to:</h2>
