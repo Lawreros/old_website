@@ -32,3 +32,13 @@
     border: 1px solid #ccc;
     border-top: none;
   }
+
+/* Consistent raised box for stuff */
+.raised_box {
+  box-sizing: content-box;
+  margin-left: auto; /* margin-left and margin-right of "auto" is required to center element*/
+  margin-right: auto;
+  width: 40%;
+  padding: 5px;
+  box-shadow: 10px 8px 6px -6px black;
+}

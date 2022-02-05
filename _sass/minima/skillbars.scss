@@ -1,6 +1,8 @@
 .skill-bars{
   padding: 25px 30px;
   width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background: rgb(182, 210, 245);
   box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
   border-radius: 10px;
@@ -52,19 +54,19 @@
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.python span{
-  width: 90%;
+  width: 80%;
 }
 .bar .progress-line.matlab span{
-  width: 60%;
+  width: 75%;
 }
 .bar .progress-line.R span{
-  width: 85%;
+  width: 50%;
 }
 .bar .progress-line.docker span{
   width: 50%;
 }
 .bar .progress-line.swift span{
-  width: 75%;
+  width: 65%;
 }
 .progress-line span::before{
   position: absolute;
@@ -99,17 +101,17 @@
   }
 }
 .progress-line.python span::after{
-  content: "90%";
+  content: "80%";
 }
 .progress-line.matlab span::after{
-  content: "60%";
+  content: "75%";
 }
 .progress-line.R span::after{
-  content: "85%";
+  content: "50%";
 }
 .progress-line.docker span::after{
   content: "50%";
 }
 .progress-line.swift span::after{
-  content: "75%";
+  content: "65%";
 }
