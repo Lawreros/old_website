@@ -1,10 +1,11 @@
 .skill-bars{
   padding: 25px 30px;
-  width: 600px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  overflow: hidden; //prevents this box from having a height of 0 if the elements inside of it are float: left/right/center
   background: rgb(182, 210, 245);
   box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
   border-radius: 10px;
@@ -116,4 +117,15 @@
 }
 .progress-line.swift span::after{
   content: "65%";
+}
+
+
+.skill-bars .col { //allows for the skillbars to be in multiple columns
+  width: 43%;
+  margin: 0 3%;
+  // position: relative;
+  float: left;
+  // font-size: 12px;
+  // line-height: 2em;
+  padding: 3% 0;
 }
